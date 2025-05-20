@@ -17,7 +17,11 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
+<<<<<<< HEAD
     origin: ['http://localhost:5173','https://jobnest-frontend-4.onrender.com'],
+=======
+    origin:'http://localhost:5173',
+>>>>>>> 2e513c0a8f5e4e9a9e3bcf375555b0939d686ad0
     credentials:true
 }
 
